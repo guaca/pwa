@@ -24,7 +24,7 @@
 }
 
 
-@media screen and (max-width: 992px) {
+@media screen and (max-width: 600px) {
     .pwa-logo, .nuxt-logo {
       width: 30%;
       align-items: center;

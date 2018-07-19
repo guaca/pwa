@@ -18,6 +18,7 @@ html {
 
 p {
   padding: 6px;
+  margin: 10px 0;
 }
 
 *, *:before, *:after {
@@ -51,10 +52,10 @@ p {
   font-family: "Quicksand", "Source Sans Pro", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif; /* 1 */
   display: block;
   font-weight: 400;
-  font-size: 80px;
+  font-size: 50px;
   color: #35495e;
   letter-spacing: 1px;
-  margin: 20px 100px;
+  margin: 10px 100px;
 }
 
 .subtitle {
@@ -62,7 +63,7 @@ p {
   font-size: 28px;
   color: #526488;
   word-spacing: 5px;
-  padding-bottom: 15px;
+  padding: 15px 0;
   margin: 20px 100px;
 }
 
@@ -75,7 +76,7 @@ p {
   color: #526488;
   word-spacing: 5px;
   padding-bottom: 15px;
-  margin: 0 20px;;
+  margin: 0 20px;
 }
 
 hr {
@@ -93,7 +94,10 @@ hr {
     font-size: 20px;
     margin: 10px 30px;
     font-weight: 500;
+  }
 
+  .static-content{
+    font-size: 18px;
   }
 }
 

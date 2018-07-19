@@ -20,13 +20,13 @@
 
 <style>
   footer {
+    position: fixed;
     width: 100%;
     display: flex;
     align-items: center;
     background-image: linear-gradient(20deg, #46B784, #5A21C5);
     color: white;
     font-family: "Quicksand", "Source Sans Pro", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif; /* 1 */
-    font-size: 16px;
     font-weight: 500;
     line-height: 1.5em;
     padding: 10px 30px;

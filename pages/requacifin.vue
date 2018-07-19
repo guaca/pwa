@@ -16,6 +16,9 @@
         <p>Actualmente no existe ningún resultado en Google para la keyword <strong>Requacifin</strong>, así que el objetivo será no solo indexar esta página si no que aparezca en resultados de búsqueda.</p>
         <p>Desde esta página, vamos a enlazar a otra subpágina a indexar y posicionar por otra keyword inventada:</p>
           <nuxt-link to="/wekilinest" class="button--green">Wekilinest</nuxt-link>
+          <p>El 19 de julio de 2018 abrimos el archivo robots.txt para permitir que los bots rastreen e indexen esta página. ¿Cuánto tardará Google en rastrearla e indexarla? Al tratarse de un Server Side Rendering, debería realizar una indexación mucho más rápida que para las las opciones SPA y Static.</p>
+          <p>¿Los resultados? Los veremos a partir del 27 de julio ;) </p>
+          <p>Recuerda que puedes navegar entre las otras versiones del experimento desde https://pwaexperiments.com</p>
       </div>
     </div>
     <app-footer/>

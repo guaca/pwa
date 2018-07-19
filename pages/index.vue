@@ -6,7 +6,7 @@
       </nuxt-link>
       <hr>
       <h1 class="title">
-        Cómo indexar una PWA y no morir en el intento
+        Cómo indexar una PWA y no morir en el intento - SSR Mode
       </h1>
       <h2 class="subtitle">
         Esta web es una SSR PWA desarrollada con Nuxt.js para analizar el comportamiento de Google con distintos bloques de contenido y enlaces
