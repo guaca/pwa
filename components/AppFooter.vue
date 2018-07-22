@@ -20,9 +20,8 @@
 
 <style>
   footer {
-    position: fixed;
-    width: 100%;
     display: flex;
+    width: 100%;
     align-items: center;
     background-image: linear-gradient(20deg, #46B784, #5A21C5);
     color: white;

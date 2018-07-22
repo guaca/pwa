@@ -11,7 +11,6 @@
       <h2 class="subtitle">
         Esta página vamos a indexarla e intentar posicionarla para la keyword inventada Wekilinest
       </h2>
-      <app-content/>
       <div class="static-content">
         <p>Actualmente no existe ningún resultado en Google para la fake keyword <strong>Wekilinest</strong>, así que el objetivo será no solo indexar esta página si no que aparezca en resultados de búsqueda.</p>
         <p>El 19 de julio permitimos a los bots el rastreo e indexación de esta página. ¿Cuánto tardará Google en rastrearla e indexarla? Al tratarse de un SSR, debería realizar una indexación mucho más rápida que para las las opciones SPA y estática a pesar de ser una página en segundo nivel de profundidad.</p>
@@ -34,10 +33,10 @@ export default {
   },
   head () {
       return {
-        title: 'Wekilinest',
+        title: 'Wekilinest - SSR',
         meta: [
           { hid: 'description', name: 'description', content: 'En esta página trabajamos la keyword inventada Wekilinest para comprobar la indexación de contenidos en buscadores de una SSR PWA.' },
-          { hid: 'og:title', name: 'og:title', content: 'Wekilinest' },
+          { hid: 'og:title', name: 'og:title', content: 'Wekilinest - SSR' },
           { hid: 'og:description', name: 'og:description', content: 'En esta página trabajamos la keyword inventada Wekilinest para comprobar la indexación de contenidos en buscadores de una SSR PWA.' }
         ]
       }

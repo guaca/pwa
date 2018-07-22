@@ -11,7 +11,6 @@
       <h2 class="subtitle">
         Esta página vamos a indexarla e intentar posicionarla para la keyword inventada Requacifin
       </h2>
-      <app-content/>
       <div class="static-content">
         <p>Actualmente no existe ningún resultado en Google para la keyword <strong>Requacifin</strong>, así que el objetivo será no solo indexar esta página si no que aparezca en resultados de búsqueda.</p>
         <p>Desde esta página, vamos a enlazar a otra subpágina a indexar y posicionar por otra keyword inventada:</p>
@@ -36,10 +35,10 @@ export default {
   },
   head () {
       return {
-        title: 'Requacifin',
+        title: 'Requacifin - SSR PWA',
         meta: [
           { hid: 'description', name: 'description', content: 'En esta página trabajamos la keyword inventada Requacifin para comprobar la indexación de contenidos en buscadores de una SSR PWA.' },
-          { hid: 'og:title', name: 'og:title', content: 'Requacifin' },
+          { hid: 'og:title', name: 'og:title', content: 'Requacifin - SSR PWA' },
           { hid: 'og:description', name: 'og:description', content: 'En esta página trabajamos la keyword inventada Requacifin para comprobar la indexación de contenidos en buscadores de una SSR PWA.' }
         ]
       }

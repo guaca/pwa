@@ -37,11 +37,11 @@ export default {
   },
   head () {
       return {
-        title: 'Cómo indexar una PWA y no morir en el intento',
+        title: 'Cómo indexar una PWA en modo SSR y no morir en el intento',
         meta: [
-          { hid: 'description', name: 'description', content: 'Esta es una PWA desarrollada con Nuxt.js para comprobar el comportamiento de Google con este tipo de páginas' },
-          { hid: 'og:title', name: 'og:title', content: 'Cómo indexar una PWA y no morir en el intento' },
-          { hid: 'og:description', name: 'og:description', content: 'Esta es una PWA desarrollada con Nuxt.js para comprobar el comportamiento de Google con este tipo de páginas' }
+          { hid: 'description', name: 'description', content: 'Esta es una PWA desarrollada con Nuxt.js en modo SSR para comprobar el comportamiento de Google con este tipo de páginas' },
+          { hid: 'og:title', name: 'og:title', content: 'Cómo indexar una PWA en modo SSR y no morir en el intento' },
+          { hid: 'og:description', name: 'og:description', content: 'Esta es una PWA desarrollada con Nuxt.js en modo SSR para comprobar el comportamiento de Google con este tipo de páginas' }
         ]
       }
     }
